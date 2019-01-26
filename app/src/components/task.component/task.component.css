@@ -1,0 +1,78 @@
+.list-group-item{
+    padding: 5px 5px 5px 10px;
+    background: #FAFAFA;
+}
+
+.task-title {
+    color: #202020;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.task-title:hover {
+    color: dodgerblue;
+}
+
+.expire {
+    font-size: 12px;
+    margin-top: 3px;
+    color: grey;
+    border-bottom: 1px solid red;
+    cursor: default;
+}
+
+.task-project {
+    margin-right: 7px;
+    font-size: 12px;
+    color: grey;
+    margin-top: 4px;
+}
+
+.task-project-icon {
+    margin-top: 2px;
+    /*color: pink;*/
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.complete-task {
+    margin-right: 15px;
+    font-size: 21px;
+    vertical-align: middle;
+    color: lightgray;
+
+}
+.complete-task:hover {
+    background: #EBF2FF;
+    border-radius: 50%;
+}
+
+
+
+.day-expire {
+    border-left: 4px solid red;
+}
+
+.day-today {
+    border-left: 4px solid orange;
+}
+
+.day-2 {
+    border-left: 4px solid yellow;
+}
+
+.day-3 {
+    border-left: 4px solid green;
+}
+.day-4 {
+    border-left: 4px solid lightblue;
+}
+.day-5 {
+    border-left: 4px solid dodgerblue;
+}
+.day-6 {
+    border-left: 4px solid rebeccapurple;
+}
+.day-rest {
+    border-left: 4px solid grey;
+}

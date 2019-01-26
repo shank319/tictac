@@ -215,4 +215,10 @@ var mockOther = {
         daySix: [],
         dayRest: [],
     }
+};
+
+
+export default {
+    mockOther: mockOther,
+    mockFocus: mockFocus
 }

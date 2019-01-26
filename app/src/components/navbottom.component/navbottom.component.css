@@ -1,0 +1,7 @@
+.footer {
+    height: 40px;
+}
+.active {
+    background: #414A4C;
+    border-radius: 0;
+}
