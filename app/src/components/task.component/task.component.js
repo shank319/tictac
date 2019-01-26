@@ -1,7 +1,12 @@
+import TaskDetail from "../taskdetail.component/index";
+
 export default {
     name: 'task',
     props: {
         msg: String
+    },
+    components: {
+        TaskDetail
     },
     data: function () {
         return {
